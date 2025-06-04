@@ -134,8 +134,8 @@ jobs:
       - name: Create a release
         uses: ncipollo/release-action@v1
         with:
-          name: "AW1000 24.10.1 ${{ env.NOW }}"
-          tag: "AW1000-24.10.1-${{ env.SHORT_SHA }}-${{ env.NOW }}"
+          name: "AW1000 24.10-NSS ${{ env.NOW }}"
+          tag: "AW1000-24.10-NSS-${{ env.SHORT_SHA }}-${{ env.NOW }}"
           generateReleaseNotes: true
           makeLatest: false
           artifacts: |
